@@ -1,3 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 716 720" preserveAspectRatio="xMidYMid slice">
-<image width="716" height="720" href="data:image/jpeg;base64,PLACEHOLDER" preserveAspectRatio="xMidYMid slice"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 716 720" role="img" aria-label="Modern city skyline with technology-inspired light trails">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#07182b"/><stop offset=".62" stop-color="#102d48"/><stop offset="1" stop-color="#061322"/></linearGradient>
+  <linearGradient id="road" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#0b1d30"/><stop offset=".5" stop-color="#173c5a"/><stop offset="1" stop-color="#071322"/></linearGradient>
+  <linearGradient id="blueTrail" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#1267c7" stop-opacity=".1"/><stop offset=".45" stop-color="#63adff"/><stop offset="1" stop-color="#b9e2ff"/></linearGradient>
+  <linearGradient id="goldTrail" x1="1" y1="1" x2="0" y2="0"><stop stop-color="#b76b22" stop-opacity=".15"/><stop offset=".55" stop-color="#f2a35b"/><stop offset="1" stop-color="#ffe1b8"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="windows" width="18" height="22" patternUnits="userSpaceOnUse"><rect width="18" height="22" fill="none"/><rect x="4" y="5" width="3" height="7" fill="#9fd4ff" opacity=".55"/><rect x="11" y="5" width="3" height="7" fill="#fff" opacity=".3"/></pattern>
+</defs>
+<rect width="716" height="720" fill="url(#sky)"/>
+<circle cx="104" cy="185" r="72" fill="#d7ecff" opacity=".08"/>
+<path d="M0 410 Q110 375 205 402 T410 394 T716 410 V720 H0Z" fill="#06111e"/>
+<g stroke="#3f79a8" stroke-width="1" opacity=".18"><path d="M0 270H716"/><path d="M0 315H716"/><path d="M0 360H716"/></g>
+<g>
+  <path d="M18 720V335h68v385z" fill="#0b1d30"/><path d="M30 350h44v370H30z" fill="url(#windows)" opacity=".7"/>
+  <path d="M92 720V280h86v440z" fill="#0b1f33"/><path d="M105 296h60v424H105z" fill="url(#windows)" opacity=".75"/>
+  <path d="M188 720V350h70v370z" fill="#10273e"/><path d="M200 365h46v355" fill="url(#windows)" opacity=".7"/>
+  <path d="M263 720V210h92v510z" fill="#0a1c2e"/><path d="M278 230h62v490" fill="url(#windows)" opacity=".8"/>
+  <path d="M358 720V125h92v595z" fill="#0d2238"/><path d="M373 145h62v575" fill="url(#windows)" opacity=".9"/>
+  <path d="M405 125l-1-48h6v48z" fill="#63adff" opacity=".55"/>
+  <path d="M455 720V285h82v435z" fill="#102940"/><path d="M468 301h56v419" fill="url(#windows)" opacity=".75"/>
+  <path d="M543 720V235h76v485z" fill="#0a1d30"/><path d="M556 252h50v468" fill="url(#windows)" opacity=".7"/>
+  <path d="M625 720V340h70v380z" fill="#0c2034"/><path d="M637 355h45v365" fill="url(#windows)" opacity=".65"/>
+</g>
+<path d="M0 720 Q180 625 360 645 Q535 666 716 585 L716 720Z" fill="url(#road)" stroke="#345979" stroke-width="2"/>
+<g fill="none" stroke-linecap="round" filter="url(#glow)">
+  <path d="M40 720 Q220 635 370 655 Q525 676 704 595" stroke="url(#blueTrail)" stroke-width="7"/>
+  <path d="M72 720 Q240 646 378 665 Q530 687 716 612" stroke="#63adff" stroke-width="2" opacity=".9"/>
+  <path d="M120 720 Q270 662 392 678 Q540 696 716 637" stroke="#a8ddff" stroke-width="2" opacity=".75"/>
+  <path d="M676 720 Q540 668 408 680 Q250 695 45 620" stroke="url(#goldTrail)" stroke-width="6"/>
+  <path d="M708 720 Q550 677 420 690 Q260 707 78 642" stroke="#f3a25d" stroke-width="2" opacity=".9"/>
+</g>
+<g fill="#63adff" opacity=".7"><circle cx="92" cy="540" r="2"/><circle cx="612" cy="420" r="2"/><circle cx="472" cy="250" r="2"/><circle cx="246" cy="470" r="1.5"/></g>
+<rect x="0" y="0" width="716" height="720" fill="url(#sky)" opacity=".08"/>
 </svg>
