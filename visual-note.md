@@ -1,1 +1,0 @@
-Hero visual update is included in the branch.
