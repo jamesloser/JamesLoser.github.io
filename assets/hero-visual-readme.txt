@@ -1,0 +1,1 @@
+Portfolio hero visual asset: portfolio-cityscape.svg
