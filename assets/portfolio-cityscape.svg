@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 486 487" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <clipPath id="cityscape-only"><rect x="0" y="0" width="486" height="300"/></clipPath>
+  </defs>
+  <g clip-path="url(#cityscape-only)">
+    <image href="https://raw.githubusercontent.com/jamesloser/JamesLoser.github.io/agent/visual-polish-mobile/assets/james-hero.jpg" x="0" y="0" width="486" height="487" preserveAspectRatio="xMidYMid slice"/>
+  </g>
+</svg>
