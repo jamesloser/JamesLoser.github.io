@@ -1,0 +1,44 @@
+/* Hero image quality refinement */
+.hero-visual{
+  flex:0 0 460px;
+  width:460px;
+  aspect-ratio:486 / 487;
+  height:auto;
+  border-radius:24px;
+  overflow:hidden;
+  background:#061322;
+  border:1px solid rgba(255,255,255,.24);
+  box-shadow:0 28px 70px rgba(0,0,0,.34);
+  transform:none;
+}
+.hero-visual:before{display:none}
+.visual-image{
+  position:absolute;
+  inset:0;
+  background-image:url("assets/james-hero.jpg");
+  background-position:center;
+  background-repeat:no-repeat;
+  background-size:100% 100%;
+  background-color:#061322;
+  filter:none;
+  transform:none;
+}
+@media(max-width:1050px){
+  .hero-inner{gap:38px}
+  .hero-visual{flex-basis:400px;width:400px}
+}
+@media(max-width:900px){
+  .hero-visual{flex-basis:360px;width:360px}
+}
+@media(max-width:760px){
+  .hero-visual{
+    width:100%;
+    max-width:460px;
+    height:auto;
+    aspect-ratio:486 / 487;
+    margin:0 auto;
+  }
+}
+@media(max-width:430px){
+  .hero-visual{width:100%;max-width:360px}
+}
